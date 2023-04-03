@@ -500,12 +500,6 @@ padding-right: 10px;
   }
 
 
-
-
-
-
-
-
 /* Media Query  */
 
 /* Responsive  */
@@ -538,6 +532,7 @@ padding-right: 10px;
   .main-blog{
     /* height: 150vh; */
     grid-template-columns: 1fr;
+    /* grid-column-gap: 3rem; */
     gap: 1rem;
   }
 
@@ -563,26 +558,6 @@ padding-right: 10px;
   }
   
 }
-
-@media (max-width: 300px) {
-  .home {
-    /* top: 150px; */
-    height: 120vh;
-  }
-
- 
-}
-
-/* Mobile View  */
-
-@media (max-width: 1380px) {
-
-  
-  
-  }
-  @media (max-width: 663px) {
-  
-  }
 
 
 

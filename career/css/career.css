@@ -1138,38 +1138,3 @@ background-color: rgb(247, 249, 249);
     
   }
   
-  @media (max-width: 910px) {
-    /* .main-contact{
-      
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-   */
-
-  }
-  
-  @media (max-width: 600px) {
-   .input-icons{
-     /* padding: 10px 40px 40px 12px; */
-                /* background-color: #df1919; */
-   }
-  }
-  
-  @media (max-width: 300px) {
-  
-  
-   
-  }
-  
-  /* Mobile View  */
-  
-  @media (max-width: 1380px) {
-  
-    
-    
-    }
-    @media (max-width: 663px) {
-    
-    }
-
-    
