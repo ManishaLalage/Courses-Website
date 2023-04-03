@@ -459,6 +459,9 @@ body {
   color: #0c52a1;
 }
 
+
+
+
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
