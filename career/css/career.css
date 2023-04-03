@@ -1108,16 +1108,14 @@ background-color: rgb(247, 249, 249);
 
 /* Responsive  */
 
-@media (max-width: 1410px) {
+/* @media (max-width: 1410px) {
  
     section {
-      /* padding: 60px 3%; */
-      /* padding: 30px 3%; */
+    
       transition: 0.2s;
     }
     .main-contact{
-        /* height: 150vh; */
-        /* background-color: blue; */
+ 
         grid-template-columns: 1fr;
         gap:2rem;
       }
@@ -1126,8 +1124,7 @@ background-color: rgb(247, 249, 249);
   .subcomment{
     display: grid;
      grid-template-columns: 1fr;
-    /* background-color: aquamarine; */
-        /* grid-column-gap: 20px; */
+   
   
     }
     
@@ -1135,6 +1132,87 @@ background-color: rgb(247, 249, 249);
   
   @media (max-width: 1050px) {
   
-    
+     */
+  
+
+
+     
+
+/* Media Query  */
+
+/* Responsive  */
+
+@media (max-width: 1410px) {
+ 
+  section {
+    /* padding: 70px 3%; */
+    /* padding: 30px 3%; */
+    transition: 0.2s;
   }
+  /* .container {
+    padding: 90px 3%;
+    transition: 0.2s;
+  } */
+}
+
+@media (max-width: 1050px) {
+
+  .blog-right .posts{
+    background-color: #301cc3;
+    padding:10px;
+   }
+
+   .subcomment{
+    display: grid;
+     grid-template-columns: 1fr;
+    background-color: rgb(255, 255, 127);
+        grid-column-gap: 20px;
+    
+    }
+   .blog-right .posts .post1 img {    
+    width: 110px;
+    height: 130px;
+}
+  
+}
+
+@media (max-width: 910px) {
+  .main-blog{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .blog-left  .blog-left-icon span{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 0.9rem;
+
+  }
+
+  
+}
+
+@media (max-width: 600px) {
+ 
+  .blog-left  .blog-left-icon span{
+      padding-left: 9px;
+      padding-right: 9px;
+      font-size: 0.7rem;
+
+  }
+
+  .blog-right .posts{
+    background-color: #c31c1c;
+    padding:6px;
+   }
+
+   .blog-right .posts .post1 img {
+
+    width: 110px;
+    height: 130px;
+}
+
+  
+}
+
   
