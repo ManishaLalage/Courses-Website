@@ -416,6 +416,7 @@ section.work .contents{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
   grid-gap: 2.5rem;
+  
 }
 
 section.work .contents .steps{
@@ -561,8 +562,8 @@ section.contact-us .right p, section.contact-us .right h5{
 #virtues-tab-1-content,
 #virtues-tab-2-content,
 #virtues-tab-3-content{
-	display: none;
-	opacity: 0;
+	/* display: none;
+	opacity: 0; */
 }
 
 /* p.virtues-tab-item{
@@ -891,8 +892,8 @@ section div.wrapper{
 }
 
 .show {
-	display: block !important;
-	opacity: 1 !important;
+	/* display: block !important;
+	opacity: 1 !important; */
 	transition: all 1000 ease-in;
 }
 
@@ -1057,4 +1058,20 @@ footer .contact-us p div i{
 .social a:hover {
   background: #fff;
   color:#fa2424;
+}
+
+.virtue{
+  color: #040052;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.virtue .fa{
+ color: white;
+ margin-right: 4%;
+}
+.virtues-heading{
+  color: #040052;
+  font-size: 1.2rem;
+  font-weight: 700;
 }

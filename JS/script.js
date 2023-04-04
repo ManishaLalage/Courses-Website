@@ -59,3 +59,28 @@ function removeShow() {
 tabItems.forEach(item => {
 	item.addEventListener('click', selectItem);
 });
+
+function showTrainer(){
+	document.querySelector('#virtues-tab-2 .fa').style.color="red"
+	document.querySelector('#virtues-tab-1 .fa').style.color="white"
+	document.querySelector('#virtues-tab-3 .fa').style.color="white"
+	document.getElementById('virtues-tab-2-content').style.display="block";
+	document.getElementById('virtues-tab-1-content').style.display="none";
+	document.getElementById('virtues-tab-3-content').style.display="none";
+}
+function showFulltime(){
+	document.querySelector('#virtues-tab-1 .fa').style.color="red"
+	document.querySelector('#virtues-tab-2 .fa').style.color="white"
+	document.querySelector('#virtues-tab-3 .fa').style.color="white"
+	document.getElementById('virtues-tab-1-content').style.display="block";
+	document.getElementById('virtues-tab-2-content').style.display="none";
+	document.getElementById('virtues-tab-3-content').style.display="none";
+}
+function showEase(){
+	document.querySelector('#virtues-tab-3 .fa').style.color="red"
+	document.querySelector('#virtues-tab-1 .fa').style.color="white"
+	document.querySelector('#virtues-tab-2 .fa').style.color="white"
+	document.getElementById('virtues-tab-3-content').style.display="block";
+	document.getElementById('virtues-tab-1-content').style.display="none";
+	document.getElementById('virtues-tab-2-content').style.display="none";
+}

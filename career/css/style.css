@@ -159,6 +159,7 @@ header .nav-item a:hover {
 @media (max-width: 769px) {
   .form input{
     padding:9px 2.6rem;
+    width: 100%;
   }
 }
 
@@ -383,7 +384,7 @@ body {
   align-items: center;
   width: 80%;
   margin: auto;
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
 
 .profile-card {
